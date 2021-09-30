@@ -250,7 +250,7 @@ theme.
   }
   .eight-section-title .eg-title-tag {
     color: #000000;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 500;
     position: relative;
     font-family: "Circular Std";
@@ -260,14 +260,18 @@ theme.
     width: 5px;
     background-color: #4ce7f3;
   }
-  .eight-section-title h2 {
+  .eight-section-title h2 span{
+    background: linear-gradient(
+-38deg, #20fdee 0%, #0478e9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .eight-section-title h2{
+    font-weight: 400;
+    color: #000;
     font-size: 36px;
-    font-weight: 700;
     padding: 15px 0px 12px;
     line-height: 1.306;
-  }
-  .eight-section-title h2 span {
-    font-weight: 400;
   }
   .eight-section-title .square-shape {
     width: 40px;
@@ -1465,14 +1469,18 @@ Sticky Menu
 .col1 h1{
   text-align: center;
   padding-bottom: 20px;
+  font-size: 36px;
+font-weight: 400;
+padding: 15px 0px 12px;
+line-height: 1.306;
+font-family: "Poppins";
 }
 
 .col1 span{
-  font-weight: 700;
   background: linear-gradient(
 -38deg, #20fdee 0%, #0478e9 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .ei-banner-mbl-mockup.wow.fadeInRight{
@@ -1617,11 +1625,13 @@ transition: 0.3s all ease-in-out;
     margin-left: -15px;
     align-items: center;
 }
-.trusted_user_section{
+/* .trusted_user_section{
   position: relative;
-  background-color: #eceef6;
-}
-.trusted_user_section:before{
+  background-image: url(assets/img/app-landing/background/tbg.jpg);
+  background-size: cover;
+  background-position: center;
+} */
+/* .trusted_user_section:before{
   content: "";
 position: absolute;
 left: 0;
@@ -1632,8 +1642,8 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: 50% 50%;
 background-image: url(../img/app-landing/shape/s-shape2.png);
-}
-}
+} */
+
 .row-column{
   display: flex;
   flex-direction: column;
@@ -1651,10 +1661,16 @@ background-image: url(../img/app-landing/shape/s-shape2.png);
 
 #trusted_user h2{
   font-weight: 400;
+  color: #000;
+  font-size: 36px;
+  padding: 15px 0px 12px;
+  line-height: 1.306;
+font-family: "Poppins";
 }
+
 #trusted_user span{
-  font-weight: 700;
-  background: linear-gradient(-38deg, #20fdee 0%, #0478e9 100%);
+  background: linear-gradient(
+-38deg, #20fdee 0%, #0478e9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2222,7 +2238,8 @@ svg {
 }
 
 .ei-faq-section .eight-section-title .eg-title-tag {
-  font-size: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .ei-faq-section .ei-faq-queans {
@@ -2463,6 +2480,7 @@ svg {
 
 .ei-testimonial-section .eight-section-title .eg-title-tag {
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .ei-testimonial-section .ei-testimonial-img-text {
@@ -2666,6 +2684,12 @@ svg {
   right: 140px;
 }
 
+.trusted_user_section .testimonial-float-img1 li:nth-child(3) {
+  top: 30%;
+  left: 15%;
+}
+
+
 /*---------------------------------------------------- */
 /*Pertner  area*/
 /*----------------------------------------------------*/
@@ -2752,12 +2776,15 @@ svg {
 
 .ei-newslatter-section .ei-newslatter-contnet h3 {
   color: #fff;
-  font-size: 26px;
-  font-weight: 700;
+  font-weight: 400;
+  font-size: 36px;
+  padding: 15px 0px 12px;
+  line-height: 1.306;
+font-family: "Poppins";
 }
 
 .ei-newslatter-section .ei-newslatter-contnet h3 span {
-  font-weight: 100;
+  font-weight: 700;
 }
 
 .ei-newslatter-section .ei-newslatter-contnet .ei-newslatter-form {
