@@ -479,26 +479,57 @@ theme.
     right: auto;
     left: 0;
   }
-
+/*
   .main-header-eight .appheader-content .sign-up-btn-eight {
     height: 40px;
     width: 110px;
     line-height: 40px;
     border-radius: 20px;
     justify-content: center;
-    background-color: #29f5eb;
     transition: 0.3s all ease-in-out;
-  }
+  } */
 
   .main-header-eight .appheader-content .sign-up-btn-eight a {
-    font-weight: 600;
-    display: block;
-    width: 100%;
+    height: 40px;
+color: #fff;
+width: 160px!important;
+line-height: 40px;
+text-align: center;
+border-radius: 50px;
+background-color: #009cff;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 0px;
+font-size: 15px;
+font-weight: 600;
+font-family: "Poppins";
+display: inline-block;
+transition: 0.3s all ease-in-out;
+
   }
 
-  .main-header-eight .appheader-content .sign-up-btn-eight:hover {
-    background-color: #009cff;
-  }
+    .main-header-eight .appheader-content .sign-up-btn-eight a:hover{
+      height: 40px;
+          color: #fff;
+          width: 160px!important;
+          line-height: 40px;
+          text-align: center;
+          border-radius: 50px;
+          border-top-right-radius: 0;
+          background-color: #ff00d6;
+          font-size: 15px;
+          font-weight: 600;
+          font-family: "Poppins";
+          display: inline-block;
+          transition: 0.3s all ease-in-out;
+    }
+
+    .main-header-eight .appheader-content .sign-up-btn-eight a:nth-child(1) i {
+    top: 5px;
+    color: #000;
+    font-size: 25px;
+    position: relative;
+    margin-right: 10px;
+}
 
   .main-header-eight .appheader-content .sign-up-btn-eight:hover a {
     color: #fff;
@@ -506,7 +537,6 @@ theme.
 
   .main-header-eight .appheader-content .h-eight-social {
     padding-top: 10px;
-    margin-left: 40px;
   }
 
   .main-header-eight .appheader-content .h-eight-social li {
@@ -1484,8 +1514,17 @@ font-family: "Poppins";
 }
 
 .ei-banner-mbl-mockup.wow.fadeInRight{
-  height: 652px;
-  width: 361px;
+  height: 659px;
+  width: 368px;
+  background-image: url("../img/app-landing/mockup/video-bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.ei-banner-mbl-mockup.wow.fadeInRight img{
+  margin-top: 74px;
 }
 
 .ei-appdownload-section.position-relative .col-lg-6 a{
@@ -1495,6 +1534,7 @@ font-family: "Poppins";
 }
 
 .news{
+  font-family: 'Poppins';
   padding-top: 24px;
     padding-left: 24px;
     padding-right: 24px;
@@ -1538,8 +1578,8 @@ margin-bottom: 20px;
 }
 
 .ei-banner-mbl-mockup.wow.fadeInRight img{
-  width: 361px!important;
-  height: 652px!important;
+  width: 240px!important;
+  height: 481px!important;
 }
 
 .ei-banner-btn a{
@@ -4124,10 +4164,15 @@ font-family: "Poppins";
 .ei-newslatter-form.position-relative input{
   font-size: 13px;
 }
-.ei-banner-mbl-mockup.wow.fadeInRight img{
+.ei-banner-mbl-mockup.wow.fadeInRight{
   width: 320px!important;
   height: 610px!important;
 }
+.ei-banner-mbl-mockup.wow.fadeInRight img{
+  width: 192px!important;
+  height: 432px!important;
+}
+
 .ei-footer-section.position-relative .col1 .one_str{
   display: block;
 }
